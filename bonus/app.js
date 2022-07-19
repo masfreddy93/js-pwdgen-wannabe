@@ -8,5 +8,5 @@ console.log(colorePreferito);
 
 // password
 let password = document.getElementById('password');
-password.innerHTML = 'La tua password é la seguente: ' + nome + cognome + colorePreferito + '17';
+password.innerHTML = 'La tua password é la seguente: ' + nome + cognome + colorePreferito + Math.floor(Math.random() * 100);
 console.log(password);
